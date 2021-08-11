@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import About from '../components/About'
+import CarouselComponent from '../components/CarouselComponent'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
       <Header />
+      <CarouselComponent />
       <About />
     </div>
   )
