@@ -8,10 +8,10 @@ function About() {
       <Container className="py-5 w-75">
       <h2 className="mb-5 display-4 mb-md-3 mb-sm-0 text-center">About</h2>
         <Row className="">
-          <Col lg={6} md={0} className="mt-5 mt-md-0 mt-sm-3">
+          <Col lg={6} md={0} className="p-3mt-md-0 mt-sm-3">
             <AboutImage />        
           </Col>
-          <Col lg={6} md={0} className="mt-5 py-5 mt-md-0 mt-sm-0">
+          <Col lg={6} md={0} className="p-3 mt-md-0 mt-sm-0">
             <AboutInfo />        
           </Col>
         </Row>

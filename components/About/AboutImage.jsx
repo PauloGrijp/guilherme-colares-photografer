@@ -9,7 +9,8 @@ function AboutImage() {
         className="shadow w-100"
         style={{maxWidth:350}}
       />
-    </div>  
+    </div>
+  
   )
 }
 
