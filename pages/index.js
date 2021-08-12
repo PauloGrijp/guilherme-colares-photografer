@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import About from '../components/About'
 import CarouselComponent from '../components/CarouselComponent'
 import Galery from '../components/Galery'
+import Product from '../components/Product'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <CarouselComponent />
       <About />
       <Galery />
+      <Product />
     </div>
   )
 }
