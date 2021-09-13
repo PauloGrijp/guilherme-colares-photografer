@@ -74,7 +74,7 @@ function Galery() {
   
 
   return (
-    <section className="mt-5 p-5 bg-dark float-none">
+    <section className="mt-5 p-5 bg-dark">
       <h2 className="text-center mb-5 p-5 text-white display-4">Galery</h2>
       <Container className="">
         <Gallery photos={photos} />

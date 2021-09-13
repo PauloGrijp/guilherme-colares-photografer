@@ -4,6 +4,7 @@ import About from '../components/About'
 import CarouselComponent from '../components/CarouselComponent'
 import Galery from '../components/Galery'
 import Product from '../components/Product'
+import Contact from '../components/Contact'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <About />
       <Galery />
       <Product />
+      <Contact />
     </div>
   )
 }

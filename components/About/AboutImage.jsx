@@ -2,13 +2,14 @@ import { Image } from "react-bootstrap"
 
 function AboutImage() {
   return (
-    <div className="my-3 text-center mx-auto">
+    <div className="text-center mx-5 float-lg-end float-md-none mb-lg-1 mb-sm-3">
       <Image
-        src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        src="../image/IMG_9055.jpg"
         alt="My photo"
-        className="shadow w-100"
-        style={{maxWidth:350}}
+        className="shadow-lg w-100"
+        style={{maxWidth:500}}
       />
+      {/* <img src="" alt="" /> */}
     </div>
   
   )
